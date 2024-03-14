@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicioso - Comida a Domicilio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Delicioso</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#about">Acerca de Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>¡Deléitate con Nuestros Deliciosos Platos a Domicilio!</h2>
+            <a href="#menu" class="btn">Ver Menú</a>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="container">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-cards">
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="./img/margarita.webp" alt="Pizza Margarita">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pizza Margarita</h3>
+                        <p>Tomate, mozzarella, albahaca fresca.</p>
+                        <span>$10.99</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="./img/peperoni.jfif" alt="Pizza Pepperoni">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pizza Pepperoni</h3>
+                        <p>Tomate, mozzarella, pepperoni.</p>
+                        <span>$12.99</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="./img/peperoni.jfif" alt="Pizza Pepperoni">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pizza Pepperoni</h3>
+                        <p>Tomate, mozzarella, pepperoni.</p>
+                        <span>$12.99</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="./img/peperoni.jfif" alt="Pizza Pepperoni">
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pizza Pepperoni</h3>
+                        <p>Tomate, mozzarella, pepperoni.</p>
+                        <span>$12.99</span>
+                    </div>
+                </div>
+                <!-- Agrega más cartas de menú según sea necesario -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Acerca de Nosotros</h2>
+                    <div class="about-info">
+                        <p>Somos una pizzería familiar dedicada a ofrecer las mejores pizzas artesanales de la ciudad. Con más de 10 años de experiencia en la industria culinaria, nos enorgullece servir a nuestros clientes platos frescos, sabrosos y de alta calidad.</p>
+                        <p>Nuestro compromiso con la excelencia se refleja en cada aspecto de nuestro negocio, desde la selección de ingredientes frescos hasta la preparación de nuestras deliciosas recetas. Trabajamos arduamente para garantizar que cada cliente disfrute de una experiencia culinaria memorable cada vez que nos visita.</p>
+                        <p>Además de nuestras pizzas artesanales, también ofrecemos una selección de bebidas refrescantes y postres tentadores para complementar tu comida. Ya sea que estés celebrando una ocasión especial o simplemente deseando una deliciosa cena en casa, estamos aquí para satisfacer tus antojos de pizza de la manera más deliciosa posible.</p>
+                        <p>¡Ven y únete a nosotros en Delicioso para una experiencia culinaria única que te dejará con ganas de más!</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./img/tienda.jpg" alt="Imagen de la tienda">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Envianos un mensaje:</h3>
+                    <form id="contact-form" method="post" action="enviar.php">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.3577191863!2d-74.0287178296491!3d40.74881777443819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2594b66d57069%3A0x80f8df3f9e4b6788!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1622618693651!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Delicioso - Comida a Domicilio</p>
+                <div class="contact-buttons">
+                    <a href="https://www.facebook.com/tupagina" target="_blank" class="contact-btn"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/tupagina" target="_blank" class="contact-btn"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
